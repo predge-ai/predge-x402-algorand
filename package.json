@@ -1,0 +1,16 @@
+{
+  "name": "predge-x402-algorand",
+  "version": "1.0.0",
+  "description": "Predge x402 API on Algorand — verified, per-call agent data payable in USDC on Algorand MainNet via the GoPlausible facilitator.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://predge.io",
+  "keywords": ["x402", "algorand", "usdc", "agentic-commerce", "goplausible", "predge"],
+  "scripts": {
+    "pay": "node examples/pay-algorand.mjs"
+  },
+  "dependencies": {
+    "algosdk": "^3.0.0",
+    "x402-fetch": "^0.6.0"
+  }
+}
